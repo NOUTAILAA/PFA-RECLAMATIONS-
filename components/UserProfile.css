@@ -1,0 +1,115 @@
+/* UserProfile.css */
+.user-profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.user-profile h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-profile p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.user-profile p strong {
+    color: #000;
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+/* UserProfile.css */
+
+.user-profile-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center; /* Center align the content */
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+.user-profile-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.user-profile-container p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.user-profile-container p strong {
+    color: #000;
+}
+
+.user-profile-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the form */
+}
+
+.user-profile-container form div {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form elements */
+}
+
+.user-profile-container form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.user-profile-container form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-profile-container .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px; /* Limit the width of the button group */
+    margin-top: 20px;
+}
+
+.user-profile-container .button-group button {
+    flex: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-profile-container .button-group button:last-of-type {
+    margin-right: 0; /* Remove margin on the last button */
+}
+
