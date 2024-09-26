@@ -1,0 +1,6 @@
+{
+    "appId": "com.example.app",
+    "appName": "ems-frontend",
+    "bundleWebRuntimes": false,
+    "webDir": "dist"
+}

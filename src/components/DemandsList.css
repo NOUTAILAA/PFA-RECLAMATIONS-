@@ -1,0 +1,398 @@
+.demands-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .demands-table th, .demands-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .demands-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  .accept-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .reject-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .accept-btn:hover,
+  .reject-btn:hover {
+    opacity: 0.8;
+  }
+  /* Container for search elements */
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the search input */
+.search-container input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Styles for the search button */
+.search-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #99A3A4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+.search-container button:hover {
+  background-color: #2C3E50;
+}
+
+/* Styles for the demands table */
+.demands-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.demands-table th, .demands-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.demands-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.demands-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styles for the action buttons */
+.btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.btn-outline-success {
+  background-color: white;
+  color: #99A3A4;
+  border: 1px solid #99A3A4;
+}
+
+.btn-outline-success:hover {
+  background-color: #99A3A4;
+  color: white;
+}
+
+.btn-outline-danger {
+  background-color: white;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+.search-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.users-table, .demands-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.users-table th, .demands-table th, 
+.users-table td, .demands-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.users-table th, .demands-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.users-table tr:nth-child(even), 
+.demands-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.users-table tr:hover, 
+.demands-table tr:hover {
+  background-color: #ddd;
+}
+
+.users-table th, .demands-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #99A3A4;
+  color: white;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline-dark {
+  border: 1px solid #333;
+  background: none;
+  color: #333;
+}
+
+.btn-outline-dark:hover {
+  background-color: #333;
+  color: white;
+}
+
+.btn-outline-primary {
+  border: 1px solid #007bff;
+  background: none;
+  color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-outline-danger {
+  border: 1px solid #dc3545;
+  background: none;
+  color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-outline-info {
+  border: 1px solid #17a2b8;
+  background: none;
+  color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-outline-success {
+  border: 1px solid #28a745;
+  background: none;
+  color: #28a745;
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+/* DemandsList.css */
+
+.demands-list-container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline-dark {
+  background-color: #343a40;
+  color: white;
+}
+
+.btn-outline-dark:hover {
+  background-color: #23272b;
+}
+
+.btn-outline-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-outline-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-outline-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-outline-info:hover {
+  background-color: #138496;
+}
+
+.btn-outline-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #218838;
+}
+
+.btn-outline-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-outline-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-outline-warning:hover {
+  background-color: #e0a800;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: #333;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #e9ecef;
+}
+
+.edit-user-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.edit-user-form .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-user-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.edit-user-form .form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.edit-user-form .form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.edit-user-form .btn {
+  width: 48%;
+}
